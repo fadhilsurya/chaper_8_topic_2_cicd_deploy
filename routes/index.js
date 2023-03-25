@@ -14,4 +14,13 @@ router.get('/ping', (req, res) => {
   })
 })
 
+router.post('/test', (req, res) => {
+  res.json({
+    data: 'success live and well',
+    message: 'success',
+    status: 200
+  })
+})
+
+
 module.exports = router;
