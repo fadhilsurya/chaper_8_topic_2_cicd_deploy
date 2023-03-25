@@ -16,7 +16,7 @@ router.get('/ping', (req, res) => {
 
 router.post('/test', (req, res) => {
   res.json({
-    data: 'success live and well',
+    data: 'success live and well suka suka fahdil surya',
     message: 'success',
     status: 200
   })
